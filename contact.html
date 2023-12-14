@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kongs Resturant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+    <section id="contactContainer">
+
+        <nav>
+            <a href="index.html"><img src="images/logoFix.png"></a>
+            <div class="navlinks">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav> 
+        <div class="mail">
+        <img src="images/mail2.png" alt="mail">
+        </div>
+        <div class="box1"></div>
+        <div id="contact_container">
+            <div class="contact_tittles"> CONTACT</div>
+            <div class="contact_context">
+                <p>For all inquiries, regarding working with us ,<br> sauces, booking , 
+                    and general questions, pleas fill <br> out the form below and we’ll be 
+                    in touch shortly.</p>
+            </div>
+
+            <div class="contact_form">
+
+                <form action="#" method="post" onsubmit="return false";>
+                    <label for="subject">Subject:</label>
+                    <select id="subject" name="subject">
+                        <option value="working">Working With Us?</option>
+                        <option value="sauces">Sauces</option>
+                        <option value="bookings">Bookings</option>
+                        <option value="general">General Questions</option> 
+                    </select>
+            
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+            
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+            
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone">
+            
+                    <label for="comment">Comment:</label>
+                    <textarea id="comment" name="comment" rows="4" ></textarea>
+            
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+           
+
+            
+        </div>
+    </section>
+
+    <footer>
+
+    </footer>
+    
+</body>
+</html>

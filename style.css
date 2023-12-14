@@ -1,0 +1,1164 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    
+}
+
+
+
+@media only screen and (min-width:400px){
+
+}
+@media only screen and (min-width:400px){
+
+}
+@media only screen and (min-width:400px){
+
+}
+
+
+#header{
+    min-height: 90vh;
+    background-image: linear-gradient(rgba(129, 96, 13, 0.7),rgba(224, 201, 151, 0.7)),url(images/headerImages.jpg);
+
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #6E669E;
+}
+nav img{
+    width: 80px;
+
+}
+.navlinks{
+    flex: 1;
+    text-align: right;
+    
+}
+.navlinks ul li{
+    list-style: none;
+    display: inline-block;
+    
+    padding-left: 10px;
+    padding-right: 30px;
+    position: relative;
+    margin: 10px;
+}
+
+.navlinks ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+
+   
+
+}
+
+.navlinks ul li a:hover{
+    color: #1d30d8;
+    background-color: #fff;
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid #1d30d8;
+    margin: -10px;
+    font-size: 20px;
+    font-weight: 900;
+
+}
+
+
+
+.text-box{
+    width: 80%;
+    color: #fff;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 160px;
+}
+
+.btn{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #d8291d;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    
+}
+
+.btn:hover{
+    background-color: white;
+    padding-left: 45px;
+    padding-right: 45px;
+    font-size: 1.3rem;
+    border: 1px solid red;
+    color: red;
+    font-weight: 900;
+
+}
+
+.content{
+    width: 100%;
+    margin: auto;
+    padding: 5rem 2rem;
+    
+}
+
+.text-box h1{
+    font-size: 80px;
+    margin: 25px;
+    
+}
+
+.text-box p{
+    font-size: 25px;
+    margin: 15px;
+}
+
+.container{
+    min-height:100vh;
+    width:90%;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+#containershort{
+    min-height: 60vh;
+  
+    padding-top: 50px;
+    background-color:#9890C7;
+} 
+
+#BigThree{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 1000;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 30px;
+
+
+}
+.card{
+    height: 500px;
+    width: 300px;
+    margin-right: 45px;
+    margin-left: 45px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: antiquewhite;
+    
+    
+
+}
+
+#sando1{
+    background-image: url(images/chimacSando1.1.webp);
+    border: 2px solid rgb(255, 96, 96);
+    
+}
+#sando2{
+    background-image: url(images/chimacSando2.jpeg);
+    border: 2px solid rgb(255, 96, 96);
+}
+#sando3{
+    background-image: url(images/chimacSando3.jpeg);
+    border: 2px solid rgb(255, 96, 96);
+}
+
+
+
+.bigThree{
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    margin-bottom: 10px;
+    border: 1px solid red;
+    padding: 40px;
+    border-radius: 30px;
+    padding-bottom: 50px;
+   
+    text-decoration: none;
+  
+
+}
+
+.bigThree .card{
+    padding: 50px 90px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    transition: all 0.25s ease;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    transition: all 0.4s ease;
+    
+}
+
+.bigThree .card:hover{
+    background-color: #323232;
+    border: 1px solid red;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    transform: scale(1.1);
+   
+}
+
+#buttonPos{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    position: relative;
+
+}
+
+.learnMoreBTN{
+    padding:10px;
+     background-color: rgb(226, 69, 69);
+    text-align: center;
+    border: transparent;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 40px;
+    text-decoration: none;
+
+    transition: all 0.3s ease;
+}
+
+.learnMoreBTN:hover{
+    background-color: #ffffff;
+    transform: scale(1.1);
+    padding: 12px;
+    color: red;
+    border: 1px solid red;
+    font-weight: 400;
+}
+
+.Box{
+
+    width:90%;
+    height: 10cm;
+    margin-top: 0;
+    align-items: center;
+    max-width: 30cm;
+    overflow: hidden;
+    position: relative;
+
+    
+    margin-bottom: 10px;
+    border: 1px solid rgb(4, 0, 255);
+    padding: 30px;
+    border-radius: 30px;
+    padding-bottom: 50px;
+    position: relative;
+    margin-top: 20px;
+    background-color: #eeecfa;
+    
+  
+}
+
+
+.context{
+    position: absolute;
+    font-size: 25px;
+    margin: 10px;
+    text-align: center;
+    
+}
+
+
+
+.titles{
+    margin-left: 7cm;
+    margin-bottom: 20px;
+    font-size: 45px;
+    border-bottom: 2px solid red;
+    margin-right: 6.5cm;
+    
+   
+}
+
+/*  open day  */
+
+#openDayContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.openDayBox {
+    display: flex;
+    width: 1200px;
+    height: 650px;
+    background-color:#f0f0f0;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 1px solid red;
+
+}
+
+.openDayImg {
+    flex: 1;
+    overflow: hidden;
+}
+
+.openDayImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.openDayTimes {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #000000;
+}
+#Open_title{
+    
+    font-size: 60px;
+    font-weight: 1000;
+    padding-left: 20cm;
+    padding-bottom: 1cm;
+
+}
+
+
+
+span#Monday{
+    margin-left: 300px;
+}
+
+span#Tuesday{
+    margin-left: 302px;
+}
+span#Wednesday{
+    margin-left: 278px;
+}
+
+span#Thursday{
+    margin-left: 295px;
+}
+span#Friday{
+    margin-left: 319px;
+}
+
+span#Saturday{
+    margin-left: 295px;
+}
+span#Sunday{
+    margin-left: 306px;
+}
+
+
+
+
+.openDayTimes ul li{
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.openDayTimes h1{
+    font-size: 40px;
+    font-weight: 1000;
+    
+}
+
+.openDayTimes p{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.openDayTimes h2{
+    font-weight: 900;
+
+    margin-bottom: 20px;
+}
+
+.timetable ul li{
+    padding-left: 20px;
+    border-bottom: 1px solid rebeccapurple;
+    padding-bottom: 10px;
+}
+
+
+ /* foooter */
+footer{
+    background-color: #6E669E;
+    height: 50vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_Box{
+    width:38cm;
+    height: 10cm;
+    margin-top: 0;
+    align-items: center;
+    
+    margin-bottom: 10px;
+    border: 1px solid rgb(241, 237, 255);
+    padding: 30px;
+    border-radius: 30px;
+    padding-bottom: 50px;
+    
+    background-color: transparent;
+
+    display: flex;
+    justify-content: center;  
+    
+}
+
+.footer_Bottom{
+    padding: 20px;
+    text-align: center;
+}
+
+ /*about us section  */
+
+.aboutUsContanier{
+    max-width: 1200px;
+    margin: 20px auto;
+    position: relative;
+    padding: 20px;
+    height: 600px;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(43, 43, 43);
+}
+
+.AboutUs_title{
+    margin: 20px auto;
+    font-size: 50px;
+    
+    background-color: #e2574d;
+    width: 8cm;
+    height: 2cm;
+    text-align: center;
+    
+    color: aliceblue;
+    border-radius: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      
+}
+#About_Us_title{
+    font-size: 40px;
+    padding: 10px;
+    font-weight: bold
+    
+}
+
+.aboutUsContent{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.aboutUsText{
+    flex: 1;
+    margin-right: 20px;
+    
+}
+.aboutUsContent img{
+    max-width: 100%;
+    height: 100%;
+    margin-right: 20px;
+    border-radius: 40px;
+    margin-top: 60px;
+
+}
+.aboutUsText p{
+    font-size: 20px;
+    padding: 10px;
+    background-color: #e2edff;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-radius: 20px;
+    
+    
+}
+.aboutUsText span{
+    font-size: 22px;
+    font-weight: bold;
+    border-bottom: 1px solid;
+    color: #e03838;
+   
+}
+
+
+.moreAboutUs_box{
+   
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+    
+}
+
+.moreAboutUs_box p{
+    margin: 20px;
+    font-size: 20px;
+    background-color: #e2edff;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.moreAboutUs_box img{
+    height: 15cm;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    
+}
+.about_text{
+    background-color: #ffffff;
+    height: 15cm;
+    width: 12cm;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    border-left: 1px solid red;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    
+    
+    
+}
+
+.about_text span{
+    color: #e03838;
+    font-size: 30px;
+    
+}
+
+.block{
+    background-color: #ffffff;
+    height: 5rem;
+    
+}
+
+#opendayblock{
+    background-color: white;
+}
+
+
+
+.join_Us_Box{
+    height: 200px;
+    width: 200px;
+    background-color: #e2574d;
+}
+
+
+
+/* Contact sytle  */
+
+
+#contact_container{
+    height: 900px;
+    width: 800px;
+    background-color: rgb(228, 200, 166);
+    border-radius: 30px;
+    border: 1px solid rgb(31, 31, 31);
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 200px;
+    z-index: 2;
+    
+
+}
+
+.box1{
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #9890C7;
+    background: linear-gradient(to bottom, rgb(97, 95, 233), #dec9ff);;
+     height: 700px;/* Adjust the height of Box 2 */
+    width: 900px; /* Adjust the width of Box 2 */
+    z-index: 0; /* Lower z-index for Box 2 */
+    border-radius: 30px;
+}
+
+.contact_tittles{
+    margin: 20px auto;
+    font-size: 50px;
+    background-color: #e2574d;
+    width: 8cm;
+    height: 2cm;
+    text-align: center;
+    
+    font-weight: bold;
+    color: aliceblue;
+    border-radius: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_context{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+select,
+input,
+textarea {
+    margin-bottom: 16px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    width: 100%;
+}
+
+input[type="submit"] {
+    background-color: #e03838;
+    color: #fff;
+    cursor: pointer;
+    width: 100px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 40%;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #ffffff;
+    color: #d8291d;
+    border: 1px solid #d8291d;
+    padding: 11px;
+}
+
+
+#contactContainer{
+    min-height: 130vh;
+    width: 100%;
+   
+    background: linear-gradient(to bottom, rgb(255, 255, 255), #ee5f5f);
+}
+
+#aboutbackground {
+    background: rgba(0, 0, 0, 0.3) url('images/about_us\ chikenSandwhich.jpg') no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    background-blend-mode: darken;
+    
+}
+
+.mail img{
+   position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 5%;
+    margin-top: 60px;
+
+}
+
+/* shop part */
+
+.shop_title{
+    margin: 25px auto;
+    font-size: 40px;
+    background-color: #e2574d;
+    width: 7cm;
+    height: 2cm;
+    text-align: center;
+    
+    font-weight: bold;
+    color: aliceblue;
+    border-radius: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shop_selction {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 20px;
+
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 5px;
+    border: 1px solid rgb(173, 157, 253);
+
+    z-index: 2;
+
+
+    
+
+  }
+  
+  .shops_card {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 60px;
+    padding-left: 70px;
+    margin-top: 20px;
+    margin-right: 90px;
+    border-radius: 20px;
+    transition: 0.3s;
+    background-color: #ffffff;
+    border: 1px solid red;
+    
+  }
+
+  .shops_card:hover{
+    transform: scale(1.05);
+    background-color: #eb5e5e;
+    color: #e2edff;
+    max-width: 100%;
+  }
+
+  .shops_card a:hover{
+    
+  }
+
+  .shops_card img {
+    max-width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 30px;
+
+  }
+ 
+  
+  .shops_card a {
+    text-decoration: none;
+    color: rgb(79, 39, 153);
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: 600;
+  }
+
+
+  /*    Sauce selction style   */
+
+  #sauceOption1{
+   margin-left: 80px;
+  }
+
+
+.learnMore{
+    padding:10px;
+    background-color:#e46262;
+    text-align: center;
+    border: transparent;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 40px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: .3s;
+  
+    
+}
+
+.learnMore:hover{
+    background-color: #ffffff;
+    transform: scale(1.1);
+    padding: 12px;
+    color: #785aaf;
+    border: 1px solid #785aaf;
+    font-weight: 400;
+}
+
+
+.shop_selctionContainer{
+    background-color: aliceblue;
+    height: 90vh;
+    width: 100%; 
+    
+}
+
+#shopBlock{
+    background-color: aliceblue;
+    height: 10vh;
+    
+}
+
+.sauceTittles{
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    border-bottom: 5px solid red;
+    width: 40%;
+   
+}
+
+.sauceTittles span{
+    color: rgb(230, 24, 24);
+    font-weight: 800;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.shop_content p{
+   
+    padding-right: 100px;
+    margin-right: 5cm;
+    font-size: 20px;
+    background-color: #ffffff;
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+
+/*  merchandise */
+
+.contain_merch{
+
+   display: flex;
+   justify-content: center;
+   gap: 3rem;
+   
+ 
+}
+.ithem{
+    background-color: #e2574d;
+    
+    text-align: center;
+    
+    
+}
+.merch_tittle{
+    background-color: #2f3fcc;
+    grid-row: 1/1;
+    grid-column: 1/5;
+
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.merch_text{
+    background-color: #ffffff;
+    grid-row: 3/3;
+    grid-column: 1/5;
+}
+
+.merch_img{
+    grid-column: 1/5;
+    
+    
+}
+
+.merch_info{
+    grid-row: 4/4;
+    grid-column: 1/5;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.3s;
+}
+
+.merch_info:hover{
+    background-color: white;
+    color: #e03838;
+    font-size: 22px;
+  
+}
+
+.inside_grid{
+    display: grid;
+    grid-template-rows: 50px 200px 200px 50px;
+    grid-template-columns: 100px 100px 100px;
+    margin: 20px;
+    
+}
+#in_grid1{
+    grid-row: 1/2;
+    grid-column: 1/2;
+
+}
+#in_grid2{
+    grid-row: 1/2;
+    grid-column: 3/3;
+}
+#in_grid3{
+    grid-row: 1/2;
+    grid-column: 5/5;
+}
+
+.merch_tittles{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.merch_text p{
+
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: 20px;
+   
+}
+
+.merch_text{
+     overflow: hidden;
+}
+.merch_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* menu        */
+
+.menu-box {
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    max-width: 800px;
+    margin: 50px auto;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.menu-box:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.top-section {
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to bottom, #db3434, #ee5f5f);
+    color: #fff;
+}
+
+.top-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    opacity: 0.85;
+}
+
+.top-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
+.top-content h1{
+    font-size: 80px;
+    
+}
+.top-content h1 span{
+    color: #d8291d;
+
+}
+
+
+h1, h2, p {
+    margin: 0;
+}
+
+
+
+.middle-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.menu-column {
+    width: 100%;
+    max-width: 800px; /* Adjust as needed */
+    margin-bottom: 20px;
+}
+.menu-item {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background-color: #fafafa;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-bottom: 10px;
+}
+
+.menu-item:hover {
+    background-color: #f5f5f5;
+    transform: translateY(-5px);
+}
+
+.bottom-section {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.sides-image {
+    max-width: 40%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.sides-description {
+    flex-grow: 1;
+    padding-right: 20px;
+}
+
+.sides-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.section-header {
+    color: #e74c3c;
+    margin-bottom: 10px;
+}
+
+.sides-description h2{
+    font-size: 30px;
+
+}
+.sides-description p{
+    font-size: 15px;
+    margin: 5px;
+}
+.sides-description span{
+    font-weight: bold;
+    color: #d8291d;
+    font-size: 16px;
+
+}
+
+#sides-description{
+    font-size: 18px;
+    margin: 2px;
+    
+}
+.sides-description{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
+
+
+/*  drinks section */
+
+.center-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as needed */
+    background: white;
+
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    max-width: 800px;
+    margin: 50px auto;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+
+
+.drinks-desserts-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    max-width: 800px; /* Adjust as needed */
+    width: 100%;
+}
+
+.drinks-section, .desserts-section {
+    flex: 1;
+    max-width: 45%; /* Adjust as needed */
+}
+
+.dessert-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
